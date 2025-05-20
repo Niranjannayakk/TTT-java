@@ -43,7 +43,7 @@ boolean play = true;
     
     //panel
     p1 = new JPanel();
-    p1.setBounds(0,0,500,0);
+    p1.setBounds(0,0,500,100);
     p1.setBackground(Color.BLACK);
     p1.add(ttt );
     this.add(p1 , BorderLayout.NORTH);
