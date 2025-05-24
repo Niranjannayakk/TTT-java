@@ -84,14 +84,14 @@ boolean play = true;
                 // xwins or ywins arguments value to xwin and ywin methods parameters                
             }
         }
-        
+        else{
         if(boxxs[i].getText().equals("")){
                 boxxs[i].setText("O");
                 player1_turn=true;
                 ttt.setText("X turn");
                 CheakCondition();
                 }
-                  
+             }     
             }
         }
     }      
